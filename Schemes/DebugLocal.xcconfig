@@ -1,0 +1,12 @@
+//
+//  DebugLocal.xcconfig
+//  Operand
+//
+//  Created by Nirosh Ratnarajah on 2019-09-21.
+//  Copyright © 2019 Nameless Group Inc. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+server_url          = localhost:9212

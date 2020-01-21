@@ -1,0 +1,62 @@
+PODS:
+  - BoringSSL-GRPC (0.0.3):
+    - BoringSSL-GRPC/Implementation (= 0.0.3)
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Implementation (0.0.3):
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Interface (0.0.3)
+  - DJSemiModalViewController (0.1.4)
+  - gRPC-Core (1.19.0):
+    - gRPC-Core/Implementation (= 1.19.0)
+    - gRPC-Core/Interface (= 1.19.0)
+  - gRPC-Core/Implementation (1.19.0):
+    - BoringSSL-GRPC (= 0.0.3)
+    - gRPC-Core/Interface (= 1.19.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.19.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Plaid (1.1.24)
+  - ScrollableGraphView (4.0.6)
+  - SnapKit (5.0.1)
+  - SwiftGRPC (0.9.1):
+    - gRPC-Core (~> 1.19.0)
+    - SwiftProtobuf (~> 1.5.0)
+  - SwiftProtobuf (1.5.0)
+
+DEPENDENCIES:
+  - DJSemiModalViewController
+  - Plaid
+  - ScrollableGraphView
+  - SnapKit
+  - SwiftGRPC
+
+SPEC REPOS:
+  trunk:
+    - BoringSSL-GRPC
+    - DJSemiModalViewController
+    - gRPC-Core
+    - nanopb
+    - Plaid
+    - ScrollableGraphView
+    - SnapKit
+    - SwiftGRPC
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
+  DJSemiModalViewController: a7b049b3a565207f739ba81ea99a71ac04deb0fd
+  gRPC-Core: bd9472c8daa2e414b9f8038ba667bf56ce0e02b8
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Plaid: b919cdb431cdbb545a1da21e5172bb14c894b2a0
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftGRPC: 43d3e8db88f97e7386bd44f159ecdfad02ce3362
+  SwiftProtobuf: 241400280f912735c1e1b9fe675fdd2c6c4d42e2
+
+PODFILE CHECKSUM: 879778950d5df23d077776f3827626fd651cb944
+
+COCOAPODS: 1.8.3
